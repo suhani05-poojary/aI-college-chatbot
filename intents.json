@@ -1,0 +1,106 @@
+{
+ "intents":[
+
+  {
+   "tag":"greeting",
+   "patterns":[
+    "hello",
+    "hi",
+    "good morning",
+    "good evening",
+    "hey"
+   ],
+   "responses":[
+    "Hello! Welcome to the AI College Helpdesk Chatbot. How can I assist you today?"
+   ]
+  },
+
+  {
+   "tag":"admission",
+   "patterns":[
+    "admission",
+    "admission process",
+    "how to apply",
+    "how can i take admission"
+   ],
+   "responses":[
+    "To apply for admission: Step 1: Visit the official college website. Step 2: Go to the Admissions section. Step 3: Fill out the online application form. Step 4: Upload required documents. Step 5: Pay the application fee and submit the form."
+   ]
+  },
+
+  {
+   "tag":"fees",
+   "patterns":[
+    "fee structure",
+    "fees",
+    "course fee",
+    "tuition fee"
+   ],
+   "responses":[
+    "The fee structure varies depending on the course. It generally includes tuition fees, laboratory fees, and examination fees. For complete details please visit the college website or contact the accounts department."
+   ]
+  },
+
+  {
+   "tag":"exam",
+   "patterns":[
+    "exam timetable",
+    "exam schedule",
+    "exam date",
+    "when are exams"
+   ],
+   "responses":[
+    "The examination timetable is usually released one month before exams. Students can check the official college website or the notice board for updates."
+   ]
+  },
+
+  {
+   "tag":"department",
+   "patterns":[
+    "department location",
+    "computer science department",
+    "where is cs department"
+   ],
+   "responses":[
+    "The Computer Science department is located in Block B of the college campus. You can visit the department office for more academic information."
+   ]
+  },
+
+  {
+   "tag":"library",
+   "patterns":[
+    "library timing",
+    "college library",
+    "when is library open"
+   ],
+   "responses":[
+    "The college library is open from 9:00 AM to 6:00 PM on working days. Students can access books, journals, and digital learning resources."
+   ]
+  },
+
+  {
+   "tag":"hostel",
+   "patterns":[
+    "hostel facility",
+    "college hostel",
+    "is hostel available"
+   ],
+   "responses":[
+    "Yes, hostel facilities are available for both boys and girls. Students need to apply separately through the hostel administration office."
+   ]
+  },
+
+  {
+   "tag":"contact",
+   "patterns":[
+    "contact college",
+    "college phone number",
+    "helpdesk number"
+   ],
+   "responses":[
+    "You can contact the college helpdesk at +91-XXXXXXXXXX or email helpdesk@college.edu for assistance."
+   ]
+  }
+
+ ]
+}
