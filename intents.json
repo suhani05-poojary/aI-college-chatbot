@@ -1,106 +1,89 @@
 {
- "intents":[
+  "intents": [
 
-  {
-   "tag":"greeting",
-   "patterns":[
-    "hello",
-    "hi",
-    "good morning",
-    "good evening",
-    "hey"
-   ],
-   "responses":[
-    "Hello! Welcome to the AI College Helpdesk Chatbot. How can I assist you today?"
-   ]
-  },
+    {
+      "tag": "greeting",
+      "patterns": ["hello","hi","hey","good morning","good evening"],
+      "responses": [
+        "Hello! I’m here to help you.\n\nYou can ask me about admissions, fees, exams, hostel, or departments."
+      ]
+    },
 
-  {
-   "tag":"admission",
-   "patterns":[
-    "admission",
-    "admission process",
-    "how to apply",
-    "how can i take admission"
-   ],
-   "responses":[
-    "To apply for admission: Step 1: Visit the official college website. Step 2: Go to the Admissions section. Step 3: Fill out the online application form. Step 4: Upload required documents. Step 5: Pay the application fee and submit the form."
-   ]
-  },
+    {
+      "tag": "admission",
+      "patterns": [
+        "admission","how to apply","how can i join",
+        "how do i enroll","admission process",
+        "steps for admission","how to get admission"
+      ],
+      "responses": [
+        "Here is the admission process:\n\n1. Fill the online application form.\n2. Upload the required documents.\n3. Pay the application fee.\n4. Wait for confirmation from the college.\n\nRequired documents include:\n- 10th marks card\n- 12th marks card\n- ID proof\n- Passport-size photos"
+      ]
+    },
 
-  {
-   "tag":"fees",
-   "patterns":[
-    "fee structure",
-    "fees",
-    "course fee",
-    "tuition fee"
-   ],
-   "responses":[
-    "The fee structure varies depending on the course. It generally includes tuition fees, laboratory fees, and examination fees. For complete details please visit the college website or contact the accounts department."
-   ]
-  },
+    {
+      "tag": "fees",
+      "patterns": [
+        "fees","fee structure","tuition fee","course fee",
+        "cse fee","cs fee","computer science fee",
+        "how much is cse fee","what is fee for cs"
+      ],
+      "responses": [
+        "Here is the approximate fee structure:\n\nCSE:\nRs. 1,20,000 per year.\n\nECE:\nRs. 1,00,000 per year.\n\nMechanical:\nRs. 90,000 per year."
+      ]
+    },
 
-  {
-   "tag":"exam",
-   "patterns":[
-    "exam timetable",
-    "exam schedule",
-    "exam date",
-    "when are exams"
-   ],
-   "responses":[
-    "The examination timetable is usually released one month before exams. Students can check the official college website or the notice board for updates."
-   ]
-  },
+    {
+      "tag": "exam",
+      "patterns": [
+        "exam timetable","exam schedule","exam date",
+        "when are exams","semester exam dates"
+      ],
+      "responses": [
+        "The exam schedule is usually as follows:\n\nMid-Semester Exams:\nMarch.\n\nEnd-Semester Exams:\nMay to June.\n\nExact dates will be announced by the college."
+      ]
+    },
 
-  {
-   "tag":"department",
-   "patterns":[
-    "department location",
-    "computer science department",
-    "where is cs department"
-   ],
-   "responses":[
-    "The Computer Science department is located in Block B of the college campus. You can visit the department office for more academic information."
-   ]
-  },
+    {
+      "tag": "department",
+      "patterns": [
+        "where is cse department","location of cs department",
+        "where is ece department","department location"
+      ],
+      "responses": [
+        "Department locations are:\n\nCSE:\nBlock B.\n\nECE:\nBlock C.\n\nMechanical:\nBlock A.\n\nCivil:\nBlock D."
+      ]
+    },
 
-  {
-   "tag":"library",
-   "patterns":[
-    "library timing",
-    "college library",
-    "when is library open"
-   ],
-   "responses":[
-    "The college library is open from 9:00 AM to 6:00 PM on working days. Students can access books, journals, and digital learning resources."
-   ]
-  },
+    {
+      "tag": "library",
+      "patterns": [
+        "library timing","library hours","college library"
+      ],
+      "responses": [
+        "The library is open during the following hours:\n\nMonday to Friday:\n9:00 AM to 6:00 PM.\n\nSaturday:\n9:00 AM to 2:00 PM.\n\nSunday:\nClosed."
+      ]
+    },
 
-  {
-   "tag":"hostel",
-   "patterns":[
-    "hostel facility",
-    "college hostel",
-    "is hostel available"
-   ],
-   "responses":[
-    "Yes, hostel facilities are available for both boys and girls. Students need to apply separately through the hostel administration office."
-   ]
-  },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "hostel","hostel facility","hostel fees","hostel cost"
+      ],
+      "responses": [
+        "Yes, hostel facilities are available.\n\nAnnual fee:\nRs. 60,000 per year.\n\nThis includes:\n- Accommodation\n- Food\n\nRooms are available in 2-sharing and 3-sharing options with WiFi and security."
+      ]
+    },
 
-  {
-   "tag":"contact",
-   "patterns":[
-    "contact college",
-    "college phone number",
-    "helpdesk number"
-   ],
-   "responses":[
-    "You can contact the college helpdesk at +91-XXXXXXXXXX or email helpdesk@college.edu for assistance."
-   ]
-  }
+    {
+      "tag": "contact",
+      "patterns": [
+        "contact","phone number","email","helpdesk number"
+      ],
+      "responses": [
+        "You can contact the college using the following details:\n\nPhone:\n+91-9876543210.\n\nEmail:\nhelpdesk@college.edu.\n\nOffice hours:\n9:00 AM to 5:00 PM."
+      ]
+    }
 
- ]
+  ]
 }
