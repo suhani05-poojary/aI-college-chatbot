@@ -25,8 +25,26 @@ An intelligent college helpdesk chatbot built using Flask and basic Natural Lang
 ---
 
 ## 📂 Project Structure
-ai-college-chatbot/ │ ├── app.py ├── intents.json ├── requirements.txt ├── Procfile │ ├── templates/ │   └── index.html │ ├── static/ │   └── images/ │       ├── home.png │       ├── admission.png │       ├── fees.png │       ├── hostel.png │       └── fallback.png
 
+```
+ai-college-chatbot/
+│
+├── app.py
+├── intents.json
+├── requirements.txt
+├── Procfile
+│
+├── templates/
+│   └── index.html
+│
+├── static/
+│   └── images/
+│       ├── home.png
+│       ├── admission.png
+│       ├── fees.png
+│       ├── hostel.png
+│       └── fallback.png
+```
 ---
 
 ## ▶️ How to Run Locally
